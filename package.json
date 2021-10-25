@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
@@ -21,5 +22,8 @@
   "homepage": "https://github.com/Alona-Suprun/CLI-App#readme",
   "devDependencies": {
     "nodemon": "^2.0.13"
+  },
+  "dependencies": {
+    "commander": "^8.3.0"
   }
 }
